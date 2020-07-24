@@ -1,0 +1,159 @@
+/* at @media rule and make navbar horizontal */
+
+body {
+    background-color: #232B39;
+}
+
+.logo {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+nav.navbar li {
+    margin-top: 50px;
+}
+
+nav.navbar li a {
+    font-size: 38px;
+    text-decoration: none;
+    color: #BDC4CB;
+}
+
+.self-photo {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+h1 {
+    color: #BDC4CB;
+    font-size: 38px;
+    font-weight: normal;
+}
+.content {
+    color: #BDC4CB;
+    font-size: 23px;
+    text-align: center;
+}
+
+th, td {
+    font-size: 23px;
+    color: #BDC4CB;
+    margin-right: 30px;
+}
+
+@media (min-width: 900px) {
+    .self-photo {
+        width: 300px;
+        height: auto;
+        float: left;
+    }
+
+    .content {
+        float: right;
+    }
+}
+
+/* .logo {
+    display: inline-block;
+    width: 10%;
+    display: block;
+}
+
+nav.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+nav.navbar ul {
+    list-style-type: none;
+    display: inline;
+}
+
+nav.navbar li {
+    display: inline-block;
+    width: 32%;
+}
+  
+nav.navbar li a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+nav.navbar li a:link, a:visited {
+    color: #BDC4CB;
+}
+  
+nav.navbar ul li a:hover, a:active {
+    color: #BDC4CB;
+    text-decoration: underline;
+}
+
+.currentpage {
+    color: #BDC4CB;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p {
+    color: #BDC4CB;
+}
+
+.errormessage {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.errorimage {
+    max-width: 30%;
+    margin-top: 110px;
+}
+
+.errorbutton {
+    display: block;
+    background-color: #1F3D41;
+    color: #DFE0E2;
+    font-size: 1.5vw;
+    border: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px 10px;
+    width: 20%;
+    height: auto;
+    box-shadow: none;
+}
+
+.errorbutton:hover {
+    background-color: #465759;
+}
+
+.errorbutton:focus {
+    background-color: #1F3D41;
+    border: none;
+    outline: none;
+}
+
+.currentpage {
+    text-decoration: underline;
+} */
