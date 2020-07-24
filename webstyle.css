@@ -6,7 +6,7 @@ body {
 
 .logo {
     display: block;
-    width: 30%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,24 +39,30 @@ img {
 }
 
 h1 {
+    margin-top: 70px;
     color: #BDC4CB;
-    font-size: 38px;
+    font-size: 23px;
     font-weight: normal;
+    text-align: center;
 }
 
 li {
     color: #BDC4CB;
+    font-size: 14px;
 }
 .content {
     color: #BDC4CB;
     font-size: 23px;
-    text-align: center;
 }
 
 th, td {
     font-size: 23px;
     color: #BDC4CB;
     margin-right: 30px;
+}
+
+li.currentpage {
+    text-decoration: underline;
 }
 
 @media (min-width: 900px) {
@@ -77,11 +83,14 @@ th, td {
         margin-top: auto;
         margin-bottom: auto;
         float: left;
+        text-align: center;
     }
 
     nav.navbar li {
         display: inline-block;
-        padding-right: 100px;
+        padding-right: 7rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     div.newline {
@@ -89,6 +98,11 @@ th, td {
         float: left; 
         display: block; 
         position: relative;
+    }
+
+    h1 {
+        text-align: left;
+        margin-left: 20px;
     }
 }
 
