@@ -43,6 +43,10 @@ h1 {
     font-size: 38px;
     font-weight: normal;
 }
+
+li {
+    color: #BDC4CB;
+}
 .content {
     color: #BDC4CB;
     font-size: 23px;
@@ -56,14 +60,35 @@ th, td {
 }
 
 @media (min-width: 900px) {
-    .self-photo {
-        width: 300px;
+    .logo {
+        width: 10%;
         height: auto;
+        margin: 0;
         float: left;
     }
 
-    .content {
+    nav.navbar {
+        width: 90%;
+        height: 30%;
         float: right;
+    }
+
+    nav.navbar ul {
+        margin-top: auto;
+        margin-bottom: auto;
+        float: left;
+    }
+
+    nav.navbar li {
+        display: inline-block;
+        padding-right: 100px;
+    }
+
+    div.newline {
+        clear: both; 
+        float: left; 
+        display: block; 
+        position: relative;
     }
 }
 
