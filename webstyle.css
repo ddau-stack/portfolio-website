@@ -4,6 +4,24 @@ body {
     background-color: #232B39;
 }
 
+.c-logo {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.java-logo {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
 .logo {
     display: block;
     width: 40%;
@@ -46,10 +64,15 @@ h1 {
     text-align: center;
 }
 
+p {
+    color: #BDC4CB;
+}
+
 li {
     color: #BDC4CB;
     font-size: 14px;
 }
+
 .content {
     color: #BDC4CB;
     font-size: 23px;
@@ -103,5 +126,13 @@ li.currentpage {
     h1 {
         text-align: left;
         margin-left: 20px;
+    }
+
+    .c-logo {
+        width: 15%;
+        height: auto;
+        margin-left: -150px;
+        margin-bottom: -50px;
+        margin-top: 70px;
     }
 }
