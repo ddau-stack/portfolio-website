@@ -4,29 +4,37 @@ body {
     background-color: #232B39;
 }
 
-.c-logo {
-    display: block;
-    width: 70%;
+img {
+    width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-}
-
-.java-logo {
-    display: block;
-    width: 60%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+    margin-top: 70px;
 }
 
 .logo {
     display: block;
     width: 40%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.c {
+    margin-bottom: 0;
+}
+
+.java {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.html {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.css {
+    width: 35%;
+    margin-bottom: 0;
 }
 
 nav.navbar {
@@ -50,12 +58,6 @@ nav.navbar li a {
     color: #BDC4CB;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    margin-top: 70px;
-}
-
 h1 {
     margin-top: 70px;
     color: #BDC4CB;
@@ -64,8 +66,20 @@ h1 {
     text-align: center;
 }
 
+h1.skill-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
 p {
     color: #BDC4CB;
+}
+
+p.skill-paragraph {
+    margin-top: 10px;
+    font-size: 23px;
+    text-align: center;
 }
 
 li {
@@ -90,23 +104,43 @@ li.currentpage {
 
 @media (min-width: 900px) {
     .logo {
+        margin: 0 auto;
+    }
+
+    .website {
         width: 10%;
         height: auto;
         margin: 0;
         float: left;
     }
 
+    .c {
+        width: 20%;
+    }
+    
+    .java {
+        width: 15%;
+
+    }
+    
+    .html {
+        width: 25%;
+    }
+    
+    .css {
+        width: 17%;
+    }
+
+
     nav.navbar {
         width: 90%;
-        height: 30%;
-        float: right;
+        height: 200px;
     }
 
     nav.navbar ul {
         margin-top: auto;
         margin-bottom: auto;
-        float: left;
-        text-align: center;
+        float: right;
     }
 
     nav.navbar li {
@@ -124,15 +158,8 @@ li.currentpage {
     }
 
     h1 {
-        text-align: left;
+        text-align: center;
         margin-left: 20px;
-    }
-
-    .c-logo {
-        width: 15%;
-        height: auto;
-        margin-left: -150px;
-        margin-bottom: -50px;
-        margin-top: 70px;
+        font-size: 32px;
     }
 }
