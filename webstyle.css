@@ -173,9 +173,14 @@ li.currentpage {
         float: left;
         height: 20%;
         width: auto;
+        margin-left: 200px;
     }
 
     .content {
         text-align: center;
+    }
+
+    .self-introduction {
+        margin-top: 250px;
     }
 }
