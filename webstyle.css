@@ -162,4 +162,20 @@ li.currentpage {
         margin-left: 20px;
         font-size: 32px;
     }
+
+    .container {
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+
+    .self-photo {
+        float: left;
+        height: 20%;
+        width: auto;
+    }
+
+    .content {
+        text-align: center;
+    }
 }
