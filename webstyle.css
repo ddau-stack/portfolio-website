@@ -84,7 +84,7 @@ p.skill-paragraph {
 
 li {
     color: #BDC4CB;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .content {
@@ -182,5 +182,10 @@ li.currentpage {
 
     .self-introduction {
         margin-top: 250px;
+    }
+
+    .projects-list {
+        list-style-position: inside;
+        text-align: center;
     }
 }
