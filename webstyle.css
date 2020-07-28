@@ -82,6 +82,17 @@ p.skill-paragraph {
     text-align: center;
 }
 
+.error-message {
+    color: #BDC4CB;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.error-button {
+    display: block;
+    margin: 50px auto;
+}
+
 li {
     color: #BDC4CB;
     font-size: 20px;
@@ -186,6 +197,19 @@ li.currentpage {
 
     .projects-list {
         list-style-position: inside;
+        text-align: center;
+    }
+
+    .error-image {
+        display: block;
+        width: 30%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .error-message {
+        display: block;
         text-align: center;
     }
 }
