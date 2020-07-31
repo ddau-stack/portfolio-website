@@ -7,13 +7,10 @@ h1 {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #232B39;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    margin-top: 70px;
+    height: 100%;
 }
 
 p {
@@ -23,6 +20,14 @@ p {
 li {
     color: #BDC4CB;
     font-size: 20px;
+}
+
+.logo {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* navbar styling */
@@ -57,6 +62,28 @@ li.currentpage {
     font-size: 23px;
 }
 
+/* one.html styling */
+.c {
+    margin-bottom: 0;
+}
+
+.java {
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.html {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.css {
+    width: 35%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* two.html styling */
 .skill-header {
     margin-top: 10px;
@@ -82,44 +109,14 @@ li.currentpage {
 }
 
 .error-button {
-  display: inline;
+  display: inline-block;
   padding: 10px 13px;
   margin: 2px;
   text-align: center;
   text-decoration: none;
-  display: block;
   width: 25%;
-  display: inline-block;
   background-color: #417986;
   color: #FCFCFC;
-}
-
-/* image styling */
-.logo {
-    display: block;
-    width: 40%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.c {
-    margin-bottom: 0;
-}
-
-.java {
-    width: 30%;
-    margin-bottom: 0;
-}
-
-.html {
-    width: 50%;
-    margin-bottom: 0;
-}
-
-.css {
-    width: 35%;
-    margin-bottom: 0;
 }
 
 @media (min-width: 900px) {
@@ -160,13 +157,6 @@ li.currentpage {
         float: left;
         width: 50%;
         height: 50%;
-    }
-
-    .c-container {
-        display: inline-block;
-        float: left;
-        width: 50%;
-        height: 50%;        
     }
 
     /* Home page styling */
@@ -232,6 +222,7 @@ li.currentpage {
     /* 404.html styling */
     .error-image {
         display: block;
+        margin-top: 50px;
         width: 30%;
         height: auto;
         margin-left: auto;
