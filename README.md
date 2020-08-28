@@ -8,4 +8,4 @@ There are no required dependencies to run this project.
 Open the HTML file with the browser of your choice.
 
 ## Issues
-One of the divs will go to the wrong location when the browser size is just smaller than the monitor size. The website still works as expected when the browser shrinks to the dimensions for the responsive website.
+One of the divs will go to the wrong location when the browser size is just smaller than the monitor size. The website still works as expected when the browser shrinks to the dimensions for the mobile version of the website.
